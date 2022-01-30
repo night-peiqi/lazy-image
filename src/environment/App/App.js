@@ -1,10 +1,13 @@
 import React from 'react';
-import {Counter} from 'lib';
+import LazyImage from 'lib';
 import classes from './App.module.css';
 
 const App = () => (
   <div className={classes.container}>
-    <Counter initialValue={0} />
+    <LazyImage
+      src="https://img.kaikeba.com/30155111102202dcbz.png"
+      defaultimg="https://img.kaikeba.com/30155111102202dcbz.png"
+    />
   </div>
 );
 

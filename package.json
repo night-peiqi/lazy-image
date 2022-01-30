@@ -37,6 +37,7 @@
       "last 1 safari version"
     ]
   },
+  "license": "MIT",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "style": "lib/default.css",
