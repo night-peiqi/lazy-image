@@ -22,6 +22,9 @@ const LazyImage = props => {
         });
       };
       // 创建一个IntersectionObserver对象实例
+      if (!window || !window.IntersectionObserver) {
+        return
+      }
       const intersectionObserver = new IntersectionObserver(images => {
         images.forEach(image => {
           // 判断img元素是否可见，可见元素调用src属性赋值方法
