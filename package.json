@@ -3,6 +3,32 @@
   "version": "0.1.1",
   "private": false,
   "author": "herozhu",
+  "license": "MIT",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "style": "lib/default.css",
+  "engines": {
+    "node": ">=10"
+  },
+  "description": "Lazy loading of pictures",
+  "keywords": [
+    "lazy",
+    "image",
+    "picture",
+    "load"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Awn-Alice/lazy-image",
+    "directory": "/"
+  },
+  "homepage": "https://github.com/Awn-Alice/lazy-image",
+  "bugs": {
+    "url": "https://github.com/Awn-Alice/lazy-image/issues"
+  },
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -38,14 +64,6 @@
       "last 1 safari version"
     ]
   },
-  "license": "MIT",
-  "main": "lib/index.cjs.js",
-  "module": "lib/index.esm.js",
-  "style": "lib/default.css",
-  "engines": {
-    "node": ">=10"
-  },
-  "files": ["lib"],
   "devDependencies": {
     "@babel/cli": "7.15.4",
     "@babel/core": "7.15.5",
